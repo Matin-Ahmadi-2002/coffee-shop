@@ -17,6 +17,29 @@
     font-weight: 400;
     src: url("../fonts/IRANSansWeb\(FaNum\)_Light.woff2") format("woff2");
 }
+.fas,.far {
+	font-family: 'Font Awesome 5 Pro';
+	margin-top: -2px;
+	font-weight: 300
+}
+
+@font-face {
+	font-family: 'Font Awesome 5 Pro';
+	font-style: normal;
+	font-weight: 300;
+	font-display: auto;
+	src: url(webfonts/fa-brands-400.ttf);
+	src: url(webfonts/fa-light-300.eot?#iefix) format("embedded-opentype"), url(webfonts/fa-light-300.woff2) format("woff2"), url(webfonts/fa-light-300.woff) format("woff"), url(webfonts/fa-light-300.ttf) format("truetype"), url(webfonts/fa-light-300.svg#fontawesome) format("svg")
+}
+
+@font-face {
+	font-family: 'Font Awesome 5 Brands';
+	font-style: normal;
+	font-weight: 400;
+	font-display: auto;
+	src: url(webfonts/fa-brands-400.eot);
+	src: url(webfonts/fa-brands-400.eot?#iefix) format("embedded-opentype"), url(webfonts/fa-brands-400.woff2) format("woff2"), url(webfonts/fa-brands-400.woff) format("woff"), url(webfonts/fa-brands-400.ttf) format("truetype"), url(webfonts/fa-brands-400.svg#fontawesome) format("svg")
+}
 
   /* Normalize Css */
   *{
@@ -222,39 +245,63 @@
     --main-color: #795F46;
   }
   .headers {
-    background: #f8f9f9;
+    background: var(--main-color);
   }
 .topbar{
   display: flex;
   justify-content: space-between;
+  align-items: center;
   line-height: 3.5rem;
   font-weight: 400;
   font-size: 14px;
 }
 .topbar a{
   color: #000;
-  transition: all 400ms ease-in-out;
-  -webkit-transition: all 400ms ease-in-out;
-  -moz-transition: all 400ms ease-in-out;
-  -ms-transition: all 400ms ease-in-out;
-  -o-transition: all 400ms ease-in-out;
+  transition: all 250ms ease-in-out;
+  -webkit-transition: all 250ms ease-in-out;
+  -moz-transition: all 250ms ease-in-out;
+  -ms-transition: all 250ms ease-in-out;
+  -o-transition: all 250ms ease-in-out;
 }
 .topbar a:hover{
-  color: var(--main-color);
+  color: #f2ac6e;
 }
-.topbar a:hover span{
-  color: #000;
+.topbar a i{
+  font-size: 1.3rem;
 }
 .topbar_right{
   display: flex;
   justify-content: flex-start;
   gap: 2rem;
 }
-.topbar_left span {
-  color: var(--text-color);
-  transition: all 400ms ease-in-out;
-  -webkit-transition: all 400ms ease-in-out;
-  -moz-transition: all 400ms ease-in-out;
-  -ms-transition: all 400ms ease-in-out;
-  -o-transition: all 400ms ease-in-out;
+.topbar_left{
+  display: flex;
+  gap: 2rem;
 }
+.user i{
+  border-left: 2px solid #5a4d27;
+  padding-left: 2rem;
+}
+.tooltip {
+  position: relative;
+  display: inline-block;
+  border-bottom: 1px dotted black;
+}
+
+.tooltip .tooltiptext {
+  visibility: hidden;
+  width: 100px;
+  background-color: #000;
+  color: #fff;
+  text-align: center;
+  border-radius: 6px;
+  position: absolute;
+  z-index: 1;
+  top: 75%;
+  left: 0;
+}
+
+.tooltip:hover .tooltiptext {
+  visibility: visible;
+}
+
