@@ -244,7 +244,7 @@
   :root{
     --main-color: #795F46;
   }
-  .headers {
+  .topbars {
     background: var(--main-color);
   }
 .topbar{
@@ -287,7 +287,6 @@
   display: inline-block;
   border-bottom: 1px dotted black;
 }
-
 .tooltip .tooltiptext {
   visibility: hidden;
   width: 100px;
@@ -300,8 +299,31 @@
   top: 75%;
   left: 0;
 }
-
 .tooltip:hover .tooltiptext {
   visibility: visible;
+}
+.main_header_color{
+  background-color: #191716;
+}
+.main_header {
+  display: flex;
+  justify-content: space-between;
+  line-height: 8rem;
+  max-height: 150px;
+}
+.main_header ul{
+  display: flex;
+  gap: 5rem;
+}
+.main_header ul li a{
+  color: #fff;
+  transition: all 200ms ease-in-out;
+  -webkit-transition: all 200ms ease-in-out;
+  -moz-transition: all 200ms ease-in-out;
+  -ms-transition: all 200ms ease-in-out;
+  -o-transition: all 200ms ease-in-out;
+}
+.main_header ul li a:hover {
+  color: var(--main-color);
 }
 
