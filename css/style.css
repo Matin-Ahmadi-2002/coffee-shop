@@ -240,6 +240,10 @@
     max-width: 1320px;
     margin: 0 auto;
   }
+
+  .relative{
+    position: relative;
+  }
   /* Start Project */
   :root{
     --main-color: #795F46;
@@ -302,8 +306,10 @@
 .tooltip:hover .tooltiptext {
   visibility: visible;
 }
-.main_header_color{
-  background-color: #191716;
+.main_header_color {
+  background-color: transparent;
+  position: sticky;
+  top: 0;
 }
 .main_header {
   display: flex;
@@ -325,5 +331,8 @@
 }
 .main_header ul li a:hover {
   color: var(--main-color);
+}
+.contant {
+  margin-top: -150px;
 }
 
