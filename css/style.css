@@ -248,6 +248,9 @@
   :root{
     --main-color: #795F46;
   }
+
+  /* start header styles */
+
   .topbars {
     background: var(--main-color);
   }
@@ -306,10 +309,16 @@
 .tooltip:hover .tooltiptext {
   visibility: visible;
 }
+
 .main_header_color {
   background-color: transparent;
   position: sticky;
   top: 0;
+  transition: background-color 0.3s ease;
+  -webkit-transition: background-color 0.3s ease;
+  -moz-transition: background-color 0.3s ease;
+  -ms-transition: background-color 0.3s ease;
+  -o-transition: background-color 0.3s ease;
 }
 .main_header {
   display: flex;
@@ -335,4 +344,45 @@
 .contant {
   margin-top: -150px;
 }
-
+.img_content {
+  display: flex;
+  align-items: center;
+  margin-top: -725px;
+  color: #cacaca;
+  margin-right: 80px;
+}
+.first_content{
+  max-width: 50%;
+}
+.first_content h1 {
+  font-size: 6em;
+  font-weight: 500;
+  margin-bottom: 30px;
+}
+.first_content h4 {
+  font-size: 25px;
+  font-weight: 400;
+  line-height: 40px;
+}
+.img_content .glass_img{
+  width: 45%;
+}
+.first_content a {
+  margin-top: 80px;
+  display: inline-block;
+  border: 2px solid var(--main-color);
+  border-radius: 10px;
+  color: var(--main-color);
+  padding: 15px 40px;
+  font-weight: 500;
+  transition: all 200ms ease-in-out;
+  -webkit-border-radius: 10px;
+  -moz-border-radius: 10px;
+  -ms-border-radius: 10px;
+  -o-border-radius: 10px;
+}
+.first_content a:hover{
+  color: #fff;
+  background-color: var(--main-color);
+  cursor: pointer;
+}
