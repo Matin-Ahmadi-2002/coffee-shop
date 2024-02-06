@@ -24,6 +24,7 @@
     .services {
         margin-top: 54px;
     }
+}
 @media (max-width:1200px) {
     .img_content {
         margin-top: -550px;
@@ -283,5 +284,4 @@
     .service p {
         font-size: 12px;
     }
-
 }
