@@ -56,7 +56,7 @@
   
   body {
     margin: 0;
-    background-color: #000;
+    background-color: #fff;
     overflow-x: hidden;
     height: 1000px;
   }
@@ -423,3 +423,29 @@
 .menu_responsive ul li a{
   color: inherit;
 }
+
+/* section our services styles */
+.services {
+  display: flex;
+  flex-direction: column;
+  margin-top: 67px;
+  padding: 150px 200px 100px;
+  background-color: #f6ece0;
+}
+.section_head {
+  text-align: center;
+}
+.section_head span {
+  display: inline-block;
+  margin-bottom: 50px;
+  font-size: 22px;
+  font-weight: 500;
+  color: #7b6148;
+}
+.section_head h3 {
+  font-size: 70px;
+  font-weight: 400;
+  color: #323334;
+  margin-bottom: 60px;
+}
+
