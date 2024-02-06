@@ -426,14 +426,13 @@
 
 /* section our services styles */
 .services {
-  display: flex;
-  flex-direction: column;
   margin-top: 67px;
-  padding: 150px 200px 100px;
+  padding: 150px 100px;
   background-color: #f6ece0;
 }
 .section_head {
   text-align: center;
+  margin-bottom: 80px;
 }
 .section_head span {
   display: inline-block;
@@ -446,6 +445,29 @@
   font-size: 70px;
   font-weight: 400;
   color: #323334;
-  margin-bottom: 60px;
 }
-
+.service {
+  text-align: center;
+  max-width: 355px;
+}
+.service img {
+  max-width: 130px;
+}
+.service h3 {
+  font-size: 45px;
+  font-weight: 400;
+  margin: 20px 0 20px;
+  color: #323334;
+}
+.service p {
+  font-size: 18px;
+  line-height: 30px;
+  font-weight: 500;
+  color: #888;
+}
+.our_services{
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-end;
+  flex-wrap: wrap;
+}
