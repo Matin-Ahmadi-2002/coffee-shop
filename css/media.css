@@ -9,7 +9,21 @@
     .first_content h4 {
         font-size: 20px;
     }
-}
+    .service {
+        max-width: 302px;
+    }
+    .service h3 {
+        font-size: 40px;
+    }
+    .service p {
+        font-size: 17px;
+    }
+    .section_head h3 {
+        font-size: 60px;
+    }
+    .services {
+        margin-top: 54px;
+    }
 @media (max-width:1200px) {
     .img_content {
         margin-top: -550px;
@@ -24,6 +38,21 @@
     .main_header {
         display: flex;
         justify-content: space-evenly;
+    }
+    .service {
+        max-width: 255px;
+    }
+    .service h3 {
+        font-size: 35px;
+    }
+    .service p {
+        font-size: 14px;
+    }
+    .section_head h3 {
+        font-size: 55px;
+    }
+    .services {
+        margin-top: 38px;
     }
 }
 @media (max-width:1062px) {
@@ -40,6 +69,17 @@
     .first_content a {
         margin-top: 50px;
         padding: 10px 30px;
+    }
+    .our_services {
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+    }
+    .service {
+        margin-bottom: 35px;
+    }
+    .services {
+        margin-top: 30px;
     }
 }
 @media (max-width:992px) {
@@ -98,9 +138,21 @@
        left: 0;
        font-size: 25px;
     }
-
+    .section_head span {
+        font-size: 20px;
+    }
+    .section_head h3 {
+        font-size: 50px;
+    }
+    .services {
+        margin-top: 24px;
+        padding: 200px 100px 40px;
+    }
 }
 @media (max-width:768px) {
+    .img_content {
+        margin-top: -47%;
+    }
     .menu_responsive{
         font-size: 14px;
     }
@@ -116,11 +168,25 @@
     .first_content a {
         margin-top: 15px;
     }
+    .section_head h3 {
+        font-size: 45px;
+    }
+    .section_head span {
+        margin-bottom: 35px;
+    }
+    .services {
+        margin-top: -8px;
+        padding: 120px 48px 40px;
+    }
+    .service h3 {
+        font-size: 30px;
+    }
 }
 @media (max-width:576px) {
     .img_content {
-        padding: 0 3rem;
+        margin-top: -47%;
         margin-right: 0;
+        padding: 0 3rem;
     }
     .logo img{
         max-width: 100px;
@@ -145,6 +211,18 @@
         padding: 6px 16px;
         margin-top: 5px;
     }
+    .section_head span {
+        font-size: 18px;
+    }
+    .section_head h3 {
+        font-size: 35px;
+    }
+    .section_head {
+        margin-bottom: 55px;
+    }
+    .services {
+        padding: 120px 20px 40px;
+    }
 }
 @media (max-width:450px) {
     .topbar {
@@ -156,7 +234,7 @@
         display: none;
     }
     .img_content {
-        margin-top: -44%;
+        margin-top: -48%;
         margin-right: 0;
         padding: 0 1rem;
     }
@@ -181,4 +259,29 @@
     .topbar a i {
         font-size: 1rem;
     }
+    .services {
+        padding: 130px 20px 40px;
+    }
+    .section_head {
+        margin-bottom: 30px;
+    }
+    .section_head span {
+        margin-bottom: 20px;
+    }
+    .section_head span {
+        font-size: 16px;
+    }
+    .section_head h3 {
+        font-size: 29px;
+    }
+    .service img {
+        max-width: 100px;
+    }
+    .service h3 {
+        font-size: 25px;
+    }
+    .service p {
+        font-size: 12px;
+    }
+
 }
