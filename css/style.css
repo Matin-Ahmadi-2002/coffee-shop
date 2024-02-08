@@ -58,7 +58,6 @@ body {
   margin: 0;
   background-color: #fff;
   overflow-x: hidden;
-  height: 5000px;
 }
 
 main {
@@ -475,8 +474,7 @@ flex-wrap: wrap;
 /* stroe slider section */
 .store {
   width: 100%;
-  display: flex;
-  padding: 100px 0;
+  margin: 100px 0;
 }
 .store_head {
   display: flex;
@@ -509,8 +507,6 @@ flex-wrap: wrap;
   box-shadow: 0 5px 10px #8f8d8d
 }
 .store_sliders {
-  display: flex;
-  width: 100%;
   direction: ltr;
 }
 .store_slider {
