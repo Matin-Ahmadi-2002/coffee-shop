@@ -58,6 +58,7 @@ body {
   margin: 0;
   background-color: #fff;
   overflow-x: hidden;
+  height: 5000px;
 }
 
 main {
@@ -244,12 +245,21 @@ template {
   padding: 0 20px;
 }
 
+.menu_container {
+  max-width: 1485px;
+  margin: 0 auto;
+  padding: 0px 153px;
+}
+
 .relative{
   position: relative;
 }
 /* Start Project */
 :root{
   --main-color: #795F46;
+  --main-text: #323334;
+  --text-color: #555555;
+  --text-color2: #847f77;
 }
 
 /* start header styles */
@@ -443,7 +453,7 @@ color: #7b6148;
 .section_head h3 {
 font-size: 70px;
 font-weight: 400;
-color: #323334;
+color: var(--main-text);
 }
 .service {
 text-align: center;
@@ -456,7 +466,7 @@ max-width: 130px;
 font-size: 45px;
 font-weight: 400;
 margin: 20px 0 20px;
-color: #323334;
+color: var(--main-text);
 }
 .service p {
 font-size: 18px;
@@ -514,6 +524,7 @@ flex-wrap: wrap;
   border-radius: 15px;
   overflow: hidden;
   box-shadow: 5px 0px 5px var(--main-color);
+  background-color: #fff;
 }
 .store_sliders .describe {
   display: flex;
@@ -543,3 +554,12 @@ flex-wrap: wrap;
   color: #fff;
   background-color: var(--main-color);
 }
+.store_two{
+  width: 100%;
+  margin: 200px 0 300px;
+}
+.coffee_img{
+  height: 300px;
+}
+
+ 

@@ -46,4 +46,24 @@ window.addEventListener('scroll', function() {
     }
   })
   
-  
+  $('#store_coffee_slider').owlCarousel({
+    loop:true,
+    margin:10,
+    nav:false,
+    dots:false,
+    autoplay:false,
+    responsive:{
+        0:{
+            items:1
+        },
+        450:{
+          items:2
+        },
+        700:{
+            items:3
+        },
+        1000:{
+            items:4
+        },
+    }
+  })

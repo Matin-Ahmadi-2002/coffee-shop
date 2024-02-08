@@ -312,4 +312,7 @@
     .store_sliders .describe a {
         font-size: 14px;
     }
+    .coffee_img {
+        height: 400px;
+    }
 }
