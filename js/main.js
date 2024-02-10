@@ -71,12 +71,12 @@ window.addEventListener('scroll', function() {
   $('#comment_slider').owlCarousel({
     loop:true,
     margin:10,
-    nav:true,
-    dots:false,
-    autoplay:false,
+    autoplay:true,
     responsive:{
         0:{
-            items:1
+          items:1,
+          nav:false,
+          dots:true,
         },
         450:{
           items:1
@@ -84,8 +84,10 @@ window.addEventListener('scroll', function() {
         700:{
             items:1
         },
-        1000:{
-            items:1
+        992:{
+            items:1,
+            nav:true,
+            dots:false,
         },
     }
   })
