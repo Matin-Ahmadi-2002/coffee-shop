@@ -29,7 +29,7 @@ window.addEventListener('scroll', function() {
     margin:10,
     nav:false,
     dots:false,
-    autoplay:false,
+    autoplay:true,
     responsive:{
         0:{
             items:1
@@ -51,7 +51,7 @@ window.addEventListener('scroll', function() {
     margin:10,
     nav:false,
     dots:false,
-    autoplay:false,
+    autoplay:true,
     responsive:{
         0:{
             items:1
@@ -64,6 +64,28 @@ window.addEventListener('scroll', function() {
         },
         1000:{
             items:4
+        },
+    }
+  })
+
+  $('#comment_slider').owlCarousel({
+    loop:true,
+    margin:10,
+    nav:true,
+    dots:false,
+    autoplay:false,
+    responsive:{
+        0:{
+            items:1
+        },
+        450:{
+          items:1
+        },
+        700:{
+            items:1
+        },
+        1000:{
+            items:1
         },
     }
   })
