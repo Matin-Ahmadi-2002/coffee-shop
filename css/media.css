@@ -121,6 +121,9 @@
     .work_head {
         margin-bottom: 55px;
     }
+    .email_vs_social {
+        gap: 250px;
+    }
 }
 @media (max-width:1062px) {
     .img_content {
@@ -181,6 +184,9 @@
     }
     .work_head h6 {
         margin-bottom: 40px;
+    }
+    .email_vs_social {
+        gap: 170px;
     }
 }
 @media (max-width:992px) {
@@ -315,6 +321,14 @@
     .article_head .title h6 {
         font-size: 45px;
     }
+    .email_vs_social {
+        display: flex;
+        flex-direction: column;
+        gap: 80px;
+    }
+    input[type=email] {
+        padding: 10px 10px 10px 300px;
+    }
 }
 @media (max-width:768px) {
     .img_content {
@@ -370,6 +384,9 @@
     }
     .article_slider .describe h5 {
         font-size: 20px;
+    }
+    input[type=email] {
+        padding: 10px 10px 10px 200px;
     }
 }
 @media (max-width:576px) {
@@ -439,6 +456,15 @@
     }
     .article_slider .describe h5 {
         font-size: 24px;
+    }
+    input[type=email] {
+        padding: 10px 10px 10px 100px;
+    }
+    .infos p {
+        font-size: 18px;
+    }
+    .footer_icon {
+        font-size: 18px;
     }
 }
 @media (max-width:450px) {
@@ -570,5 +596,19 @@
     }
     .article_head .title h6 {
         font-size: 35px;
+    }
+    input[type=email] {
+        padding: 10px 10px 10px 0px;
+        margin-bottom: 20px;
+    }
+    .infos p {
+        font-size: 16px;
+    }
+    .footer_icon {
+        font-size: 16px;
+    }
+    input[type=submit] {
+        padding: 12px 14px;
+        font-size: 12px;
     }
 }
