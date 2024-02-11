@@ -312,6 +312,9 @@
     .work_head p {
         font-size: 16px;
     }
+    .article_head .title h6 {
+        font-size: 45px;
+    }
 }
 @media (max-width:768px) {
     .img_content {
@@ -364,6 +367,9 @@
     }
     .work_head h6 {
         font-size: 40px;
+    }
+    .article_slider .describe h5 {
+        font-size: 20px;
     }
 }
 @media (max-width:576px) {
@@ -424,6 +430,15 @@
     }
     .work_time_wrapper {
         padding: 0px 50px;
+    }
+    .article_head .title h6 {
+        font-size: 40px;
+    }
+    .article_slider .describe {
+        text-align: center;
+    }
+    .article_slider .describe h5 {
+        font-size: 24px;
     }
 }
 @media (max-width:450px) {
@@ -552,5 +567,8 @@
     }
     .work_btn a {
         font-size: 14px;
+    }
+    .article_head .title h6 {
+        font-size: 35px;
     }
 }

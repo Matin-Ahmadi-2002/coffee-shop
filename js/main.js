@@ -105,7 +105,7 @@ window.addEventListener('scroll', function() {
         450:{
           items:1
         },
-        700:{
+        600:{
             items:2
         },
         1000:{
