@@ -56,7 +56,7 @@ html {
 
 body {
   margin: 0;
-  background-color: #f8f2ea;
+  background-color: #f5ede0;
   overflow-x: hidden;
   height: 5000px;
 }
@@ -436,9 +436,10 @@ color: inherit;
 
 /* section our services styles */
 .services {
-margin-top: 67px;
-padding: 150px 100px;
-background-color: #f6ece0;
+  margin-top: 67px;
+  padding: 150px 100px;
+  background-color: #f6ece0;
+  border-bottom: 1px solid #fafafa;
 }
 .section_head {
 text-align: center;
@@ -749,6 +750,11 @@ flex-wrap: wrap;
 .work_head svg{
   width: 22px;
 }
+.work_head span {
+  font-size: 20px;
+  font-weight: 500;
+  color: var(--main-color);
+}
 .work_head h6 {
   margin-top: 25px;
   font-size: 60px;
@@ -780,3 +786,73 @@ flex-wrap: wrap;
 }
 
 /* article section */
+.articles {
+  padding: 80px 0;
+}
+.articles .title {
+  text-align: center;
+  line-height: 45px;
+}
+.articles .title span{
+  font-size: 20px;
+  font-weight: 500;
+  color: var(--main-color);
+}
+.article_head .title h6 {
+  font-size: 50px;
+  font-weight: 500;
+  color: var(--main-text);
+  margin: 40px 0 100px;
+}
+.article_sliders {
+  direction: ltr;
+}
+.article_slider {
+  border: 2px solid var(--text-color2);
+  border-radius: 15px;
+  overflow: hidden;
+}
+.article_slider img {
+  height: 260px;
+  object-fit: cover;
+}
+.article_slider .describe {
+  text-align: end;
+  line-height: 30px;
+  padding: 0 15px 10px;
+}
+.article_slider .describe h5 {
+  font-size: 24px;
+  font-weight: 500;
+  margin: 15px 0 25px;
+  color: var(--main-text);
+}
+.article_slider .describe p {
+  font-weight: 500;
+  color: var(--text-color2);
+  margin-bottom: 10px;
+}
+.article_slider .describe span {
+  display: flex;
+  text-align: center;
+  gap: 5px;
+  cursor: pointer;
+}
+.article_slider .describe svg{
+  width: 18px;
+}
+.article_slider .describe svg path {
+  color: var(--text-color);
+  transition: all 250ms ease-in-out;
+  -webkit-transition: all 250ms ease-in-out;
+  -moz-transition: all 250ms ease-in-out;
+  -ms-transition: all 250ms ease-in-out;
+  -o-transition: all 250ms ease-in-out;
+}
+.article_slider .describe span:hover svg path {
+  color: var(--main-color);
+}
+.like_comment{
+  display: flex;
+  gap: 10px;
+}

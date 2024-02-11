@@ -91,3 +91,25 @@ window.addEventListener('scroll', function() {
         },
     }
   })
+
+  $('#article_slider').owlCarousel({
+    loop:true,
+    margin:10,
+    nav:false,
+    dots:false,
+    autoplay:false,
+    responsive:{
+        0:{
+            items:1
+        },
+        450:{
+          items:1
+        },
+        700:{
+            items:2
+        },
+        1000:{
+            items:3
+        },
+    }
+  })
