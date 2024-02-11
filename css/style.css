@@ -726,33 +726,57 @@ flex-wrap: wrap;
 
 /* work time section */
 .work_time_wrapper{
-  width: 1380px;
+  max-width: 1380px;
   margin: 0 auto;
 }
-.work_time .menu_items {
+.work_time .work_items {
   margin-top: -48%;
 }
-.menu_head {
+.work_img img {
+  margin-top: -200px;
+}
+.work_head {
   text-align: center;
   margin-bottom: 110px;
   line-height: 55px;
 }
-.menu_head .address, .menu_head .time, .menu_head .call {
+.work_head .address, .work_head .time, .work_head .call {
   display: flex;
   align-items: center;
   justify-content: center;
   gap: 10px;
 }
-.menu_head svg{
+.work_head svg{
   width: 22px;
 }
-.menu_head h6 {
+.work_head h6 {
   margin-top: 25px;
   font-size: 60px;
   font-weight: 500;
   color: var(--main-text);
   margin-bottom: 75px;
 }
-.menu_head p{
+.work_head p{
   font-size: 18px;
 }
+.work_btn{
+  text-align: center;
+}
+.work_btn a {
+  color: var(--main-color);
+  border: 2px solid var(--main-color);
+  padding: 10px 30px;
+  font-weight: 500;
+  border-radius: 5px;
+  transition: all 250ms ease-in-out;
+  -webkit-transition: all 250ms ease-in-out;
+  -moz-transition: all 250ms ease-in-out;
+  -ms-transition: all 250ms ease-in-out;
+  -o-transition: all 250ms ease-in-out;
+}
+.work_btn a:hover {
+  color: #fff;
+  background-color: var(--main-color);
+}
+
+/* article section */

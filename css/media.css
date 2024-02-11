@@ -40,6 +40,12 @@
     .menu{
         height: 720px !important;
     }
+    .work_time {
+        height: 580px !important;
+    }
+    .work_head {
+        margin-bottom: 80px;
+    }
 }
 @media (max-width:1200px) {
     .img_content {
@@ -106,6 +112,15 @@
     .comment_slider .owl-carousel .owl-nav button.owl-next span {
         right: -10%;
     }
+    .work_time {
+        height: 500px !important;
+    }
+    .work_time .work_items {
+        margin-top: -50%;
+    }
+    .work_head {
+        margin-bottom: 55px;
+    }
 }
 @media (max-width:1062px) {
     .img_content {
@@ -157,6 +172,15 @@
     }    
     .patrons_comment {
         padding: 0px 120px;
+    }
+    .work_time {
+        height: 430px !important;
+    }
+    .work_time .work_items {
+        margin-top: -52%;
+    }
+    .work_head h6 {
+        margin-bottom: 40px;
     }
 }
 @media (max-width:992px) {
@@ -228,7 +252,7 @@
     .menu_container {
         padding: 0px 30px;
     }
-    .menu_img img {
+    .menu_img img, .work_img img {
         display: none;
     }
     .menu_items {
@@ -267,6 +291,26 @@
     }
     .owl-theme .owl-nav.disabled+.owl-dots {
         margin-top: 0;
+    }
+    .work_time_wrapper {
+        padding: 0px 80px;
+    }
+    .work_time .work_items {
+        margin-top: 0%;
+        background:#f5ecdf;
+        box-shadow: 0 6px 19px 2px #404040;
+        position: relative;
+        top: -130px;
+        height: 500px;
+        padding: 0 20px;
+    }
+    .work_head h6 {
+        margin-top: 18px;
+        font-size: 50px;
+        margin-bottom: 30px;
+    }
+    .work_head p {
+        font-size: 16px;
     }
 }
 @media (max-width:768px) {
@@ -317,6 +361,9 @@
     }
     .slider_comment span.status {
         font-size: 14px;
+    }
+    .work_head h6 {
+        font-size: 40px;
     }
 }
 @media (max-width:576px) {
@@ -374,6 +421,9 @@
     }
     .menu_options_right {
         width: 85%;
+    }
+    .work_time_wrapper {
+        padding: 0px 50px;
     }
 }
 @media (max-width:450px) {
@@ -476,5 +526,31 @@
     }
     .options {
         margin-bottom: 50px;
+    }
+    .owl-theme .owl-nav.disabled+.owl-dots {
+        margin-top: 0px;
+    }
+    .work_time {
+        height: 350px !important;
+    }
+    .work_time_wrapper {
+        padding: 0px 20px;
+    }
+    .work_head h6 {
+        font-size: 26px;
+    }
+    .work_head {
+        line-height: 40px;
+    }
+    .work_time .work_items {
+        margin-top: 10%;
+        height: 430px;
+        padding: 0;
+    }
+    .work_head p {
+        font-size: 14px;
+    }
+    .work_btn a {
+        font-size: 14px;
     }
 }
