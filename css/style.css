@@ -723,3 +723,36 @@ flex-wrap: wrap;
   background: #382d21;
   border: none;
 }
+
+/* work time section */
+.work_time_wrapper{
+  width: 1380px;
+  margin: 0 auto;
+}
+.work_time .menu_items {
+  margin-top: -48%;
+}
+.menu_head {
+  text-align: center;
+  margin-bottom: 110px;
+  line-height: 55px;
+}
+.menu_head .address, .menu_head .time, .menu_head .call {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+}
+.menu_head svg{
+  width: 22px;
+}
+.menu_head h6 {
+  margin-top: 25px;
+  font-size: 60px;
+  font-weight: 500;
+  color: var(--main-text);
+  margin-bottom: 75px;
+}
+.menu_head p{
+  font-size: 18px;
+}
