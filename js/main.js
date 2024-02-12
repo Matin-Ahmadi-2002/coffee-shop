@@ -1,6 +1,6 @@
 
 window.addEventListener('scroll', function() {
-    var header = document.querySelector('.main_header_color');
+    var header = document.querySelector('.main_header_sticky');
     var scrollPosition = window.scrollY;
   
     if (scrollPosition > 0) {
@@ -19,7 +19,7 @@ window.addEventListener('scroll', function() {
       menu.style.right = "0"
       menuBtnIcon.classList = "fa fa-times"
     } else {
-      menu.style.right = "-200px"
+      menu.style.right = "-300px"
       menuBtnIcon.classList = "fa fa-bars"
     }
   })

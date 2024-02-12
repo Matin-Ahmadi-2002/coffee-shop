@@ -329,11 +329,11 @@ max-height: 150px;
 }
 .hamberger_menu {
 width: 40px;
-color: #fff;
+color: var(--main-color);
 display: none;
 z-index: -1;
 }
-.main_header_color {
+.main_header_sticky {
 background-color: transparent;
 position: sticky;
 top: 0;
@@ -342,6 +342,7 @@ transition: background-color 0.3s ease;
 -moz-transition: background-color 0.3s ease;
 -ms-transition: background-color 0.3s ease;
 -o-transition: background-color 0.3s ease;
+z-index: 999;
 }
 .main_header {
 display: flex;
@@ -379,6 +380,7 @@ margin-right: 80px;
 }
 .first_content{
 max-width: 50%;
+overflow-x: hidden;
 }
 .first_content h1 {
 font-size: 5em;
@@ -414,7 +416,7 @@ cursor: pointer;
 }
 .menu_responsive {
 background: #000;
-width: 180px;
+width: 210px;
 height: 100vh;
 padding: 20px;
 color: #fff;
