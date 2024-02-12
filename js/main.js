@@ -4,7 +4,7 @@ window.addEventListener('scroll', function() {
     var scrollPosition = window.scrollY;
   
     if (scrollPosition > 0) {
-      header.style.backgroundColor = '#191716'; /* رنگ دلخواه برای هدر */
+      header.style.backgroundColor = 'rgba(25, 23, 22, 0.7)'; /* رنگ دلخواه برای هدر */
     } else {
       header.style.backgroundColor = 'transparent'; /* رنگ پیشفرض هدر */
     }

@@ -335,6 +335,7 @@ z-index: -1;
 }
 .main_header_sticky {
 background-color: transparent;
+backdrop-filter: blur(3px);
 position: sticky;
 top: 0;
 transition: background-color 0.3s ease;
