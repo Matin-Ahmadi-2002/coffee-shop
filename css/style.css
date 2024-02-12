@@ -474,7 +474,7 @@ color: var(--main-text);
 font-size: 18px;
 line-height: 30px;
 font-weight: 500;
-color: #888;
+color: var(--text-color);
 }
 .our_services{
 display: flex;
@@ -960,4 +960,7 @@ input[type=submit] {
 input[type=submit]:hover{
   color: #fff;
   background-color: var(--main-color);
+}
+.first_content , .glass_img, .section_head, .service{
+  --animate-duration: 1.5s;
 }
