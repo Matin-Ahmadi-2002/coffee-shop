@@ -303,6 +303,94 @@ gap: 2rem;
 border-left: 2px solid #5a4d27;
 padding-left: 2rem;
 }
+.popup {
+  display: none;
+  position: fixed;
+  top: 55%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  z-index: 1000;
+  -webkit-transform: translate(-50%, -50%);
+  -moz-transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  -o-transform: translate(-50%, -50%);
+}
+.popup .form {
+  width: 100%;
+  height: 50%;
+  color: #FFF;
+  padding: 50px 35px 35px 35px;
+  background-color: rgba(25, 23, 22,0.9);
+  border: 2px solid rgba(25, 23, 22,0.2);
+  border-radius: 10px;
+  box-shadow: 0 0 40px rgba(0, 0, 0, 0.5);
+  backdrop-filter: blur(3px);
+  -webkit-border-radius: 5px;
+  -moz-border-radius: 10px;
+  -ms-border-radius: 10px;
+  -o-border-radius: 10px;
+}
+.popup .form h5{
+  font-size: 32px;
+  text-align: center;
+  margin-bottom: 25px;
+}
+.popup .form label{
+  font-size: 16px;
+}
+input[type=text], input[type=password] {
+  width: 100%;
+  background: rgba(0, 0, 0, 0.5);
+  height: 50px;
+  padding: 0 10px;
+  font-weight: 300;
+  font-size: 14px;
+  margin: 5px 0 45px;
+  border-radius: 5px;
+  outline: none;
+  color: #ffffff;
+}
+input[type=text]::placeholder, input[type=password]::placeholder{
+  color: #ffffff !important;
+}
+.popup button {
+  width: 100%;
+  padding: 15px;
+  font-size: 18px;
+  margin-top: 20px;
+  border-radius: 5px;
+  font-weight: bold;
+  cursor: pointer;
+  transition: all 250ms ease-in-out;
+  -webkit-transition: all 250ms ease-in-out;
+  -moz-transition: all 250ms ease-in-out;
+  -ms-transition: all 250ms ease-in-out;
+  -o-transition: all 250ms ease-in-out;
+}
+.popup button:hover{
+  background-color: var(--main-color);
+  color: #fff;
+}
+.popup p {
+  text-align: center;
+  margin-top: 25px;
+  font-weight: 500;
+}
+.popup p a {
+ color: var(--text-color2);
+ transition: all 200ms ease-in-out;
+ -webkit-transition: all 200ms ease-in-out;
+ -moz-transition: all 200ms ease-in-out;
+ -ms-transition: all 200ms ease-in-out;
+ -o-transition: all 200ms ease-in-out;
+}
+.popup p a:hover {
+ color: var(--main-color);
+}
+.popup span.close {
+  cursor: pointer;
+  font-size: 25px;
+}
 .logo img{
 max-width: 150px;
 max-height: 150px;
