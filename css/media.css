@@ -388,6 +388,17 @@
     input[type=email] {
         padding: 10px 10px 10px 200px;
     }
+    .popup {
+        display: none;
+        position: fixed;
+        top: 55%;
+        left: 40%;
+        transform: translate(-30%, -50%);
+        -webkit-transform: translate(-30%, -50%);
+        -moz-transform: translate(-30%, -50%);
+        -ms-transform: translate(-30%, -50%);
+        -o-transform: translate(-30%, -50%);
+    }
 }
 @media (max-width:576px) {
     .img_content {
@@ -465,6 +476,20 @@
     }
     .footer_icon {
         font-size: 18px;
+    }
+    .popup {
+        display: none;
+        position: fixed;
+        top: 50%;
+        left: 15%;
+        transform: translate(-8%, -50%);
+        -webkit-transform: translate(-8%, -50%);
+        -moz-transform: translate(-8%, -50%);
+        -ms-transform: translate(-8%, -50%);
+        -o-transform: translate(-8%, -50%);
+    }
+    .popup .form {
+        padding: 20px 30px 25px 30px;
     }
 }
 @media (max-width:450px) {
@@ -610,5 +635,29 @@
     input[type=submit] {
         padding: 12px 14px;
         font-size: 12px;
+    }
+    .popup .form {
+        padding: 20px 15px 25px 15px;
+    }
+    .popup .form h5 {
+        font-size: 25px;
+        text-align: center;
+        margin-bottom: 25px;
+    }
+    .popup .form label {
+        font-size: 14px;
+    }
+    input[type=text], input[type=password] {
+        height: 35px;
+        font-size: 14px;
+        margin: 5px 0 25px;
+    }
+    .popup button {
+        padding: 10px;
+        font-size: 16px;
+    }
+    .popup p {
+        margin-top: 25px;
+        font-size: 14px;
     }
 }
