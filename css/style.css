@@ -303,26 +303,6 @@ gap: 2rem;
 border-left: 2px solid #5a4d27;
 padding-left: 2rem;
 }
-.tooltip {
-position: relative;
-display: inline-block;
-border-bottom: 1px dotted black;
-}
-.tooltip .tooltiptext {
-visibility: hidden;
-width: 100px;
-background-color: #000;
-color: #fff;
-text-align: center;
-border-radius: 6px;
-position: absolute;
-z-index: 1;
-top: 75%;
-left: 0;
-}
-.tooltip:hover .tooltiptext {
-visibility: visible;
-}
 .logo img{
 max-width: 150px;
 max-height: 150px;
