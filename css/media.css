@@ -399,6 +399,10 @@
         -ms-transform: translate(-30%, -50%);
         -o-transform: translate(-30%, -50%);
     }
+    .shopping_card p {
+        left: 7vw;
+        font-size: 18px;
+    }
 }
 @media (max-width:576px) {
     .img_content {
@@ -490,6 +494,12 @@
     }
     .popup .form {
         padding: 20px 30px 25px 30px;
+    }
+    .shopping_card {
+        width: 55vw;
+    }
+    .shopping_card p {
+        left: 10vw;
     }
 }
 @media (max-width:450px) {
@@ -659,5 +669,12 @@
     .popup p {
         margin-top: 25px;
         font-size: 14px;
+    }
+    .shopping_card {
+        width: 65vw;
+    }
+    .shopping_card p {
+        left: 13vw;
+        font-size: 16px;
     }
 }
