@@ -123,3 +123,12 @@ window.addEventListener('scroll', function() {
     var popup = document.getElementById("myPopup");
     popup.style.display = "none";
   }
+
+  function toggleSidebar() {
+    const shopping_card = document.getElementById('shopping_card');
+    if (shopping_card.style.left === '-800px') {
+        shopping_card.style.left = '0';
+    } else {
+        shopping_card.style.left = '-800px';
+    }
+}
